@@ -18,6 +18,7 @@ const PostForm = (props) => {
     props.create(newPost);
 
     setPost( { title: "", body: "" } );
+    props.setModal(false);
   }
 
   return (
